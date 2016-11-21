@@ -10,6 +10,26 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var currentCount = 0
+    
+    @IBOutlet weak var outputLabel: UILabel!
+    
+    
+    
+    
+    @IBAction func addOneButton(sender: UIButton) {
+        
+        currentCount = currentCount + 1
+        
+        outputLabel.text = "The button has been clicked \(currentCount) times"
+        
+        outputLabel.textColor = UIColor.redColor()
+        
+    }
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
