@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0730"
+   LastUpgradeVersion = "0810"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BAAE9ADA1DE2952B007F7AFE"
-               BuildableName = "The Count 3.app"
-               BlueprintName = "The Count 3"
-               ReferencedContainer = "container:The Count 3.xcodeproj">
+               BuildableName = "YayApp.app"
+               BlueprintName = "YayApp"
+               ReferencedContainer = "container:YayApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BAAE9AEE1DE2952B007F7AFE"
-               BuildableName = "The Count 3Tests.xctest"
-               BlueprintName = "The Count 3Tests"
-               ReferencedContainer = "container:The Count 3.xcodeproj">
+               BuildableName = "YayAppTests.xctest"
+               BlueprintName = "YayAppTests"
+               ReferencedContainer = "container:YayApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BAAE9AF91DE2952B007F7AFE"
-               BuildableName = "The Count 3UITests.xctest"
-               BlueprintName = "The Count 3UITests"
-               ReferencedContainer = "container:The Count 3.xcodeproj">
+               BuildableName = "YayAppUITests.xctest"
+               BlueprintName = "YayAppUITests"
+               ReferencedContainer = "container:YayApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BAAE9ADA1DE2952B007F7AFE"
-            BuildableName = "The Count 3.app"
-            BlueprintName = "The Count 3"
-            ReferencedContainer = "container:The Count 3.xcodeproj">
+            BuildableName = "YayApp.app"
+            BlueprintName = "YayApp"
+            ReferencedContainer = "container:YayApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BAAE9ADA1DE2952B007F7AFE"
-            BuildableName = "The Count 3.app"
-            BlueprintName = "The Count 3"
-            ReferencedContainer = "container:The Count 3.xcodeproj">
+            BuildableName = "YayApp.app"
+            BlueprintName = "YayApp"
+            ReferencedContainer = "container:YayApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BAAE9ADA1DE2952B007F7AFE"
-            BuildableName = "The Count 3.app"
-            BlueprintName = "The Count 3"
-            ReferencedContainer = "container:The Count 3.xcodeproj">
+            BuildableName = "YayApp.app"
+            BlueprintName = "YayApp"
+            ReferencedContainer = "container:YayApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

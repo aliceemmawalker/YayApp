@@ -14,6 +14,9 @@
 		BAAE9AE91DE2952B007F7AFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAAE9AE71DE2952B007F7AFE /* LaunchScreen.storyboard */; };
 		BAAE9AF41DE2952B007F7AFE /* The_Count_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAE9AF31DE2952B007F7AFE /* The_Count_3Tests.swift */; };
 		BAAE9AFF1DE2952B007F7AFE /* The_Count_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAE9AFE1DE2952B007F7AFE /* The_Count_3UITests.swift */; };
+		BAAE9B0D1DE29D56007F7AFE /* cheer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BAAE9B0C1DE29D56007F7AFE /* cheer.mp3 */; };
+		BAAE9B0F1DE29DA0007F7AFE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAAE9B0E1DE29DA0007F7AFE /* AVFoundation.framework */; };
+		BAAE9B111DE29FD3007F7AFE /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAAE9B101DE29FD3007F7AFE /* AVKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +37,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BAAE9ADB1DE2952B007F7AFE /* The Count 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Count 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAAE9ADB1DE2952B007F7AFE /* YayApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YayApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAAE9ADE1DE2952B007F7AFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAAE9AE01DE2952B007F7AFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BAAE9AE31DE2952B007F7AFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BAAE9AE51DE2952B007F7AFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAAE9AE81DE2952B007F7AFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAAE9AEA1DE2952B007F7AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BAAE9AEF1DE2952B007F7AFE /* The Count 3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Count 3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAAE9AEF1DE2952B007F7AFE /* YayAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YayAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAAE9AF31DE2952B007F7AFE /* The_Count_3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Count_3Tests.swift; sourceTree = "<group>"; };
 		BAAE9AF51DE2952B007F7AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BAAE9AFA1DE2952B007F7AFE /* The Count 3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Count 3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAAE9AFA1DE2952B007F7AFE /* YayAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YayAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAAE9AFE1DE2952B007F7AFE /* The_Count_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Count_3UITests.swift; sourceTree = "<group>"; };
 		BAAE9B001DE2952B007F7AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAAE9B0C1DE29D56007F7AFE /* cheer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cheer.mp3; sourceTree = "<group>"; };
+		BAAE9B0E1DE29DA0007F7AFE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BAAE9B101DE29FD3007F7AFE /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAAE9B111DE29FD3007F7AFE /* AVKit.framework in Frameworks */,
+				BAAE9B0F1DE29DA0007F7AFE /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,9 +85,11 @@
 		BAAE9AD21DE2952B007F7AFE = {
 			isa = PBXGroup;
 			children = (
-				BAAE9ADD1DE2952B007F7AFE /* The Count 3 */,
-				BAAE9AF21DE2952B007F7AFE /* The Count 3Tests */,
-				BAAE9AFD1DE2952B007F7AFE /* The Count 3UITests */,
+				BAAE9B101DE29FD3007F7AFE /* AVKit.framework */,
+				BAAE9B0E1DE29DA0007F7AFE /* AVFoundation.framework */,
+				BAAE9ADD1DE2952B007F7AFE /* YayApp */,
+				BAAE9AF21DE2952B007F7AFE /* YayAppTests */,
+				BAAE9AFD1DE2952B007F7AFE /* YayAppUITests */,
 				BAAE9ADC1DE2952B007F7AFE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,16 +97,17 @@
 		BAAE9ADC1DE2952B007F7AFE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BAAE9ADB1DE2952B007F7AFE /* The Count 3.app */,
-				BAAE9AEF1DE2952B007F7AFE /* The Count 3Tests.xctest */,
-				BAAE9AFA1DE2952B007F7AFE /* The Count 3UITests.xctest */,
+				BAAE9ADB1DE2952B007F7AFE /* YayApp.app */,
+				BAAE9AEF1DE2952B007F7AFE /* YayAppTests.xctest */,
+				BAAE9AFA1DE2952B007F7AFE /* YayAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BAAE9ADD1DE2952B007F7AFE /* The Count 3 */ = {
+		BAAE9ADD1DE2952B007F7AFE /* YayApp */ = {
 			isa = PBXGroup;
 			children = (
+				BAAE9B0C1DE29D56007F7AFE /* cheer.mp3 */,
 				BAAE9ADE1DE2952B007F7AFE /* AppDelegate.swift */,
 				BAAE9AE01DE2952B007F7AFE /* ViewController.swift */,
 				BAAE9AE21DE2952B007F7AFE /* Main.storyboard */,
@@ -104,33 +115,36 @@
 				BAAE9AE71DE2952B007F7AFE /* LaunchScreen.storyboard */,
 				BAAE9AEA1DE2952B007F7AFE /* Info.plist */,
 			);
+			name = YayApp;
 			path = "The Count 3";
 			sourceTree = "<group>";
 		};
-		BAAE9AF21DE2952B007F7AFE /* The Count 3Tests */ = {
+		BAAE9AF21DE2952B007F7AFE /* YayAppTests */ = {
 			isa = PBXGroup;
 			children = (
 				BAAE9AF31DE2952B007F7AFE /* The_Count_3Tests.swift */,
 				BAAE9AF51DE2952B007F7AFE /* Info.plist */,
 			);
+			name = YayAppTests;
 			path = "The Count 3Tests";
 			sourceTree = "<group>";
 		};
-		BAAE9AFD1DE2952B007F7AFE /* The Count 3UITests */ = {
+		BAAE9AFD1DE2952B007F7AFE /* YayAppUITests */ = {
 			isa = PBXGroup;
 			children = (
 				BAAE9AFE1DE2952B007F7AFE /* The_Count_3UITests.swift */,
 				BAAE9B001DE2952B007F7AFE /* Info.plist */,
 			);
+			name = YayAppUITests;
 			path = "The Count 3UITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BAAE9ADA1DE2952B007F7AFE /* The Count 3 */ = {
+		BAAE9ADA1DE2952B007F7AFE /* YayApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BAAE9B031DE2952B007F7AFE /* Build configuration list for PBXNativeTarget "The Count 3" */;
+			buildConfigurationList = BAAE9B031DE2952B007F7AFE /* Build configuration list for PBXNativeTarget "YayApp" */;
 			buildPhases = (
 				BAAE9AD71DE2952B007F7AFE /* Sources */,
 				BAAE9AD81DE2952B007F7AFE /* Frameworks */,
@@ -140,14 +154,14 @@
 			);
 			dependencies = (
 			);
-			name = "The Count 3";
+			name = YayApp;
 			productName = "The Count 3";
-			productReference = BAAE9ADB1DE2952B007F7AFE /* The Count 3.app */;
+			productReference = BAAE9ADB1DE2952B007F7AFE /* YayApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BAAE9AEE1DE2952B007F7AFE /* The Count 3Tests */ = {
+		BAAE9AEE1DE2952B007F7AFE /* YayAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BAAE9B061DE2952B007F7AFE /* Build configuration list for PBXNativeTarget "The Count 3Tests" */;
+			buildConfigurationList = BAAE9B061DE2952B007F7AFE /* Build configuration list for PBXNativeTarget "YayAppTests" */;
 			buildPhases = (
 				BAAE9AEB1DE2952B007F7AFE /* Sources */,
 				BAAE9AEC1DE2952B007F7AFE /* Frameworks */,
@@ -158,14 +172,14 @@
 			dependencies = (
 				BAAE9AF11DE2952B007F7AFE /* PBXTargetDependency */,
 			);
-			name = "The Count 3Tests";
+			name = YayAppTests;
 			productName = "The Count 3Tests";
-			productReference = BAAE9AEF1DE2952B007F7AFE /* The Count 3Tests.xctest */;
+			productReference = BAAE9AEF1DE2952B007F7AFE /* YayAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BAAE9AF91DE2952B007F7AFE /* The Count 3UITests */ = {
+		BAAE9AF91DE2952B007F7AFE /* YayAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BAAE9B091DE2952B007F7AFE /* Build configuration list for PBXNativeTarget "The Count 3UITests" */;
+			buildConfigurationList = BAAE9B091DE2952B007F7AFE /* Build configuration list for PBXNativeTarget "YayAppUITests" */;
 			buildPhases = (
 				BAAE9AF61DE2952B007F7AFE /* Sources */,
 				BAAE9AF71DE2952B007F7AFE /* Frameworks */,
@@ -176,9 +190,9 @@
 			dependencies = (
 				BAAE9AFC1DE2952B007F7AFE /* PBXTargetDependency */,
 			);
-			name = "The Count 3UITests";
+			name = YayAppUITests;
 			productName = "The Count 3UITests";
-			productReference = BAAE9AFA1DE2952B007F7AFE /* The Count 3UITests.xctest */;
+			productReference = BAAE9AFA1DE2952B007F7AFE /* YayAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -188,26 +202,29 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "BSD Academy";
 				TargetAttributes = {
 					BAAE9ADA1DE2952B007F7AFE = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = ZD87Q7DHH9;
+						DevelopmentTeam = G9Y8ZU48N7;
+						LastSwiftMigration = 0810;
 					};
 					BAAE9AEE1DE2952B007F7AFE = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = ZD87Q7DHH9;
+						LastSwiftMigration = 0810;
 						TestTargetID = BAAE9ADA1DE2952B007F7AFE;
 					};
 					BAAE9AF91DE2952B007F7AFE = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = ZD87Q7DHH9;
+						LastSwiftMigration = 0810;
 						TestTargetID = BAAE9ADA1DE2952B007F7AFE;
 					};
 				};
 			};
-			buildConfigurationList = BAAE9AD61DE2952B007F7AFE /* Build configuration list for PBXProject "The Count 3" */;
+			buildConfigurationList = BAAE9AD61DE2952B007F7AFE /* Build configuration list for PBXProject "YayApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,9 +237,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BAAE9ADA1DE2952B007F7AFE /* The Count 3 */,
-				BAAE9AEE1DE2952B007F7AFE /* The Count 3Tests */,
-				BAAE9AF91DE2952B007F7AFE /* The Count 3UITests */,
+				BAAE9ADA1DE2952B007F7AFE /* YayApp */,
+				BAAE9AEE1DE2952B007F7AFE /* YayAppTests */,
+				BAAE9AF91DE2952B007F7AFE /* YayAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,6 +251,7 @@
 			files = (
 				BAAE9AE91DE2952B007F7AFE /* LaunchScreen.storyboard in Resources */,
 				BAAE9AE61DE2952B007F7AFE /* Assets.xcassets in Resources */,
+				BAAE9B0D1DE29D56007F7AFE /* cheer.mp3 in Resources */,
 				BAAE9AE41DE2952B007F7AFE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,12 +303,12 @@
 /* Begin PBXTargetDependency section */
 		BAAE9AF11DE2952B007F7AFE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BAAE9ADA1DE2952B007F7AFE /* The Count 3 */;
+			target = BAAE9ADA1DE2952B007F7AFE /* YayApp */;
 			targetProxy = BAAE9AF01DE2952B007F7AFE /* PBXContainerItemProxy */;
 		};
 		BAAE9AFC1DE2952B007F7AFE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BAAE9ADA1DE2952B007F7AFE /* The Count 3 */;
+			target = BAAE9ADA1DE2952B007F7AFE /* YayApp */;
 			targetProxy = BAAE9AFB1DE2952B007F7AFE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -329,8 +347,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -352,7 +372,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -374,8 +394,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -391,9 +413,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -402,10 +425,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = G9Y8ZU48N7;
 				INFOPLIST_FILE = "The Count 3/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bsdacademy.The-Count-3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -413,10 +442,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = G9Y8ZU48N7;
 				INFOPLIST_FILE = "The Count 3/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bsdacademy.The-Count-3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -428,7 +463,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bsdacademy.The-Count-3Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Count 3.app/The Count 3";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YayApp.app/YayApp";
 			};
 			name = Debug;
 		};
@@ -440,7 +476,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bsdacademy.The-Count-3Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Count 3.app/The Count 3";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YayApp.app/YayApp";
 			};
 			name = Release;
 		};
@@ -451,6 +488,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bsdacademy.The-Count-3UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "The Count 3";
 			};
 			name = Debug;
@@ -462,6 +500,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bsdacademy.The-Count-3UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "The Count 3";
 			};
 			name = Release;
@@ -469,7 +508,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BAAE9AD61DE2952B007F7AFE /* Build configuration list for PBXProject "The Count 3" */ = {
+		BAAE9AD61DE2952B007F7AFE /* Build configuration list for PBXProject "YayApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BAAE9B011DE2952B007F7AFE /* Debug */,
@@ -478,29 +517,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BAAE9B031DE2952B007F7AFE /* Build configuration list for PBXNativeTarget "The Count 3" */ = {
+		BAAE9B031DE2952B007F7AFE /* Build configuration list for PBXNativeTarget "YayApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BAAE9B041DE2952B007F7AFE /* Debug */,
 				BAAE9B051DE2952B007F7AFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		BAAE9B061DE2952B007F7AFE /* Build configuration list for PBXNativeTarget "The Count 3Tests" */ = {
+		BAAE9B061DE2952B007F7AFE /* Build configuration list for PBXNativeTarget "YayAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BAAE9B071DE2952B007F7AFE /* Debug */,
 				BAAE9B081DE2952B007F7AFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		BAAE9B091DE2952B007F7AFE /* Build configuration list for PBXNativeTarget "The Count 3UITests" */ = {
+		BAAE9B091DE2952B007F7AFE /* Build configuration list for PBXNativeTarget "YayAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BAAE9B0A1DE2952B007F7AFE /* Debug */,
 				BAAE9B0B1DE2952B007F7AFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
