@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  YayApp
+//  YayApp Test
 //
 //  Created by Alice Walker on 21/11/2016.
 //  Copyright © 2016 BSD Academy. All rights reserved.
